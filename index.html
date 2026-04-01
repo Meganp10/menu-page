@@ -107,6 +107,14 @@ nav {
     padding: 10px;
   }
   
+  h3{
+    font-family: "Quattrocento", serif;
+    font-size: 1.3em;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  
   p{
     font-family: "Source Sans 3", serif;
     font-size: 1em;
@@ -147,12 +155,22 @@ nav {
   
   .menu-grid{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 16px;
+    background-color: #FFFFFE;
   }
   
   .menu-item img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
   display: block;
+}
+ 
+
+  .menu-item h2, h3, p {
+    margin: 0;
+    text-align: center;
 }
   
   .footertext {
@@ -201,61 +219,66 @@ nav {
 <div class="options-title">Take a glimpse into the type of food we love to create.</div> 
 <div class="options-text">Gluten free, dairy free & vegan options, look for GF, DF & V beside menu items</div> 
       
-<div class="menu-title">Hors D'Oeuvres</div>
-      
+<div class="menu-title">Hors D'Oeuvres</div>      
 <div class="menu-title">Starters</div>
 <div class="menu-title">Mains</div>
 
 <div class="menu-grid">
   <div class="menu-item">
-    <img src="chicken.png" alt="Grilled Chicken">
-    <h2>Grilled Chicken with Mushroom</h2>
-    <p>Option to change the sauce to Peppercorn Sauce, Sun-dried Tomato Red Wine or BBQ</p>
+    <img src="mushroomchicken.png" alt="Grilled Chicken with Mushroom">
+    <h2>Grilled Chicken</h2>
+    <p>Option to change the sauce to Peppercorn Sauce, Sun-dried Tomato Red Wine or BBQ.</p>
   </div>
 
   <div class="menu-item">
-    <img src="supreme.png" alt="Chicken Supreme">
+    <img src="chickensupreme.jpg" alt="Chicken Supreme">
     <h2>Chicken Supreme</h2>
     <p>Tender roasted chicken breast topped with a rich, creamy sauce.</p>
   </div>
 
   <div class="menu-item">
-    <img src="sirloin.png" alt="Sirloin">
+    <img src="AAAshavedsirloin.png" alt="AAA Shaved Sirloin">
     <h2>'AAA' Shaved Sirloin</h2>
-    <p>Thinly sliced, tender sirloin grilled to perfection.</p>
+    <p>Thinly sliced, tender sirloin grilled to perfection and packed with bold, savoury flavour.</p>
+    <h3>GF</h3>
   </div>
 
   <div class="menu-item">
     <img src="schnitzel.png" alt="Schnitzel">
     <h2>Schnitzel</h2>
-    <p>Crispy, golden-breaded cutlet, pan-fried to perfection.</p>
+    <p>Crispy, golden-breaded cutlet, pan-fried to perfection and served hot and tender.</p>
   </div>
 
   <div class="menu-item">
-    <img src="salmon.png" alt="Salmon">
-    <h2>Grilled Salmon</h2>
-    <p>Fresh, flame-grilled salmon with creamy dill sauce.</p>
+    <img src="salmon.png" alt="Grilled Salmon with Creamy Dill Sauce">
+    <h2>Grilled Dill Salmon</h2>
+    <p>Fresh, flame-grilled salmon finished with a light, creamy dill sauce.</p>
   </div>
 
   <div class="menu-item">
-    <img src="lasagna.png" alt="Lasagna">
+    <img src="lasagna.png" alt="Vegetarian Lasagna">
     <h2>Vegetarian Lasagna</h2>
-    <p>Layers of pasta, rich sauce, and melted cheese.</p>
+    <p>Layers of tender pasta, rich sauce, and melted cheese baked until bubbly and golden.</p>
+    <h3>V</h3>
   </div>
 
   <div class="menu-item">
-    <img src="pork.png" alt="Pulled Pork">
-    <h2>Pulled Pork</h2>
-    <p>Slow-cooked, tender shredded pork in smoky sauce.</p>
+    <img src="pulledpork.png" alt="Pulled Pork">
+    <h2>Pulled Pork (DF)</h2>
+    <p>Slow-cooked, tender shredded pork tossed in a smoky, savoury sauce.</p>
+    <h3>DF</h3>
   </div>
 
   <div class="menu-item">
-    <img src="stew.png" alt="Vegan Stew">
+    <img src="veganstew.png" alt="Vegan Stew">
     <h2>Vegan Stew</h2>
-    <p>Seasonal vegetables simmered in a rich broth.</p>
-  </div>
+    <p>A hearty blend of seasonal vegetables and herbs simmered in a rich, flavourful broth.</p>
+    <h3>V</h3>
+  </div>      
 </div>
-      
+<div class="menu-title">Sides</div>
+<div class="menu-title">Sweets</div>
+    
 </div>
  
  
